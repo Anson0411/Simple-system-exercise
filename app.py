@@ -1,6 +1,6 @@
 import pymongo
 from flask import *
-client = pymongo.MongoClient("mongodb+srv://root:root123@cluster0.ol6ob.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = pymongo.MongoClient("mongodb+")
 db = client.member_system
 print("資料庫建立成功")
 
